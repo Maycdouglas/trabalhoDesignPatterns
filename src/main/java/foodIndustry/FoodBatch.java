@@ -7,6 +7,7 @@ public class FoodBatch extends Observable {
     private Number idBatch;
     private IProcessedFood food;
     private BatchStatus status;
+    public PackagingTechniqueStrategy strategy = TraditionalPackaging.getInstance();
 
     public FoodBatch(Number idBatch, IProcessedFood food) {
         this.idBatch = idBatch;
@@ -28,6 +29,14 @@ public class FoodBatch extends Observable {
 
     public IProcessedFood getFood() {
         return food;
+    }
+
+    public PackagingTechniqueStrategy getStrategy() {
+        return strategy;
+    }
+
+    public void setStrategy(PackagingTechniqueStrategy strategy) {
+        this.strategy = strategy;
     }
 
     public boolean analyze() {

@@ -15,6 +15,10 @@ public class BatchStatusUnderAnalysis extends BatchStatus {
     }
 
     public boolean pack(FoodBatch batch) {
+
+        PackagingLine packagingLine = new PackagingLine();
+        String resultPackaging = packagingLine.packBatch(batch);
+
         batch.setStatus(BatchStatusPackaged.getInstance());
         return true;
     }
