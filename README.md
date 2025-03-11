@@ -14,8 +14,6 @@ Construa o diagrama de classes UML e implemente todos os casos de teste.
 5. Observer - `Diagrama concluído`
 6. Visitor - `Diagrama concluído`
 7. Template Method - `Diagrama concluído`
-8. ??? - Talvez o Prototype. Ver vídeo salvo sobre projetos para encontrar outro exemplo bom.
-9. Decorator -  Talvez algo relacionado à embalagem ou equipamentos
-10. Mediator - MANUTENÇÃO DE EQUIPAMENTOS - CÓDIGO NO COMPUTADOR
-11. Chains of Responsability - MANUTENÇÃO DE EQUIPAMENTOS - CÓDIGO NO COMPUTADOR
-12. Strategy - Talvez algo relacionado à embalagem ou equipamentos
+8. Strategy - `Diagrama concluído`
+9. Prototype- `Diagrama concluído`
+
