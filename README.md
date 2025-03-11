@@ -7,12 +7,13 @@ Escolha, estude e implemente também mais 1 padrão GoF dentre os que não foram
 Construa o diagrama de classes UML e implemente todos os casos de teste.
 
 ## PADRÕES ESCOLHIDOS
-1. Factory Method
-2. Abstract Factory (?)
-3. Singleton
-4. Bridge (?)
-5. State
-6. Observer
-7. Visitor
-8. Template Method (?)
-9. ???
+1. Factory Method - `Diagrama concluído`
+2. Abstract Factory - `Diagrama concluído`
+3. Singleton - `Diagrama concluído`
+4. State - `Diagrama concluído`
+5. Observer - `Diagrama concluído`
+6. Visitor - `Diagrama concluído`
+7. Template Method - `Diagrama concluído`
+8. Strategy - `Diagrama concluído`
+9. Prototype- `Diagrama concluído`
+
