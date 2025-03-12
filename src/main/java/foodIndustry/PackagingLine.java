@@ -2,13 +2,12 @@ package foodIndustry;
 
 public class PackagingLine {
 
-//    private PackagingTechniqueStrategy strategy;
+    public String packBatch(FoodBatch batch) throws CloneNotSupportedException {
 
-//    public void setStrategy(PackagingTechniqueStrategy strategy) {
-//        this.strategy = strategy;
-//    }
+        Packaging packaging = Packaging.getInstance().clone();
+        packaging.setProductName(batch.getFood().getName());
+        packaging.setIdBatch(batch.getIdBatch());
 
-    public String packBatch(FoodBatch batch) {
         PackagingTechniqueStrategy strategy = batch.getStrategy();
         return strategy.packBatch(batch);
     }

@@ -47,7 +47,7 @@ public class FoodBatch extends Observable {
         return status.discard(this);
     }
 
-    public boolean pack() {
+    public boolean pack() throws CloneNotSupportedException {
         return status.pack(this);
     }
 

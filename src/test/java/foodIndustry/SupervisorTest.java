@@ -12,7 +12,7 @@ class SupervisorTest {
     Boolean statusOperation;
 
     @BeforeEach
-    public void setUp() {
+    public void setUp() throws CloneNotSupportedException {
         Biscuit biscuit = new Biscuit();
         foodBatch = new FoodBatch(123, biscuit);
         statusOperation = foodBatch.pack();

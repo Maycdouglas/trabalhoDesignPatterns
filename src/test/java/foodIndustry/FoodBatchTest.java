@@ -29,7 +29,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void deveEmpacotarAlimentoEmAnalise(){
+    public void deveEmpacotarAlimentoEmAnalise() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusUnderAnalysis.getInstance());
         assertTrue(foodBatch.pack());
         assertEquals(BatchStatusPackaged.getInstance(), foodBatch.getStatus());
@@ -67,7 +67,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void naoDeveEmpacotarAlimentoDescartado(){
+    public void naoDeveEmpacotarAlimentoDescartado() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusDiscarded.getInstance());
         assertFalse(foodBatch.pack());
     }
@@ -104,7 +104,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void naoDeveEmpacotarAlimentoEmpacotado(){
+    public void naoDeveEmpacotarAlimentoEmpacotado() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusPackaged.getInstance());
         assertFalse(foodBatch.pack());
     }
@@ -145,7 +145,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void naoDeveEmpacotarAlimentoEmReanalise(){
+    public void naoDeveEmpacotarAlimentoEmReanalise() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusReanalysis.getInstance());
         assertFalse(foodBatch.pack());
     }
@@ -182,7 +182,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void naoDeveEmpacotarAlimentoEmTransporte(){
+    public void naoDeveEmpacotarAlimentoEmTransporte() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusInTransport.getInstance());
         assertFalse(foodBatch.pack());
     }
@@ -220,7 +220,7 @@ class FoodBatchTest {
     }
 
     @Test
-    public void naoDeveEmpacotarAlimentoEntregue(){
+    public void naoDeveEmpacotarAlimentoEntregue() throws CloneNotSupportedException {
         foodBatch.setStatus(BatchStatusDelivered.getInstance());
         assertFalse(foodBatch.pack());
     }

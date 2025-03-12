@@ -14,8 +14,7 @@ public class BatchStatusUnderAnalysis extends BatchStatus {
         return "Em análise.";
     }
 
-    public boolean pack(FoodBatch batch) {
-
+    public boolean pack(FoodBatch batch) throws CloneNotSupportedException {
         PackagingLine packagingLine = new PackagingLine();
         String resultPackaging = packagingLine.packBatch(batch);
 

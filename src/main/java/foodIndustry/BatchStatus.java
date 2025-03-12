@@ -12,7 +12,7 @@ public abstract class BatchStatus {
         return false;
     }
 
-    public boolean pack(FoodBatch batch) {
+    public boolean pack(FoodBatch batch) throws CloneNotSupportedException {
         return false;
     }
 
