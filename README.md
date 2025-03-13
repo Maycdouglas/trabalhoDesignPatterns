@@ -6,6 +6,9 @@ Escolha, estude e implemente também mais 1 padrão GoF dentre os que não foram
 
 Construa o diagrama de classes UML e implemente todos os casos de teste.
 
+## TEMA ESCOLHIDO:
+### `INDÚSTRIA ALIMENTÍCIA`
+
 ## PADRÕES ESCOLHIDOS
 1. `Factory Method`
    - Criação dos alimentos processados (**Chocolate**, **Snack** e **Biscuit**)
