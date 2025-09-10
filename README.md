@@ -1,4 +1,7 @@
 # TRABALHO DE ASPECTOS AVANÇADOS DE ENGENHARIA DE SOFTWARE
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 ### ENUNCIADO
 Dos 12 padrões estudados (Singleton, Bridge, Abstract Factory, Factory Method, Decorator, State, Observer, Strategy, Template Method, Chain of Responsibility, Mediator, Visitor) escolha pelo menos 8 e implemente uma única aplicação séria, de um único domínio de aplicação, com os padrões escolhidos.
 
